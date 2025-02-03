@@ -11,6 +11,8 @@ body {
   align-items: center;
   height: 100vh;
   background-color: #f4f4f4;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .profile-card {
@@ -40,20 +42,20 @@ body {
 
 .job-title {
   font-size: 18px;
-  color: #777;
+  color: #000000;
   margin: 5px 0;
 }
 
 .short-bio {
   font-size: 14px;
-  color: #555;
+  color: #000000;
   margin: 10px 0;
 }
 
 .location,
 .email {
   font-size: 14px;
-  color: #333;
+  color: #000000;
 }
 
 .social-links {
@@ -62,7 +64,7 @@ body {
 
 .social-links a {
   text-decoration: none;
-  color: #0077b5;
+  color: #000000;
   margin: 0 10px;
   font-size: 16px;
 }
@@ -73,6 +75,6 @@ body {
 
 .current-time {
   font-size: 14px;
-  color: #333;
+  color: #000000;
   margin-top: 20px;
 }
