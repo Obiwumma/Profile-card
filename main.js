@@ -1,8 +1,8 @@
-// Function to update the UTC time
-function updateUTC() {
-  const utcTime = new Date().toISOString();
-  document.getElementById('utc-time').innerText = utcTime;
+// Function to display the current UTC time
+function displayUTCTime() {
+  const now = new Date().toUTCString().replace("GMT", "UTC");
+  document.querySelector("#utc-time").textContent = now;
 }
 
-// Update the UTC time on page load
-window.onload = updateUTC;
+// Set the UTC time when the page loads
+window.addEventListener('load', displayUTCTime);
